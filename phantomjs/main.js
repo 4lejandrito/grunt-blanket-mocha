@@ -132,8 +132,8 @@ page.onLoadFinished = function(status) {
   sendMessage('onLoadFinished', status);
   if (status !== 'success') {
     // File loading failure.
-    sendMessage('fail.load', url);
-    phantom.exit();
+    // sendMessage('fail.load', url);
+    // phantom.exit();
   }
 };
 
